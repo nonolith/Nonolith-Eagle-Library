@@ -1,0 +1,5 @@
+This is the version control location for the Nonolith EAGLE library. 
+
+To date (31-Oct-11,) this library has remained a part of the development repository for the CEE. 
+
+As the number of our projects grows, this has become awkward and cause for reduplication.
