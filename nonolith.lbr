@@ -6873,6 +6873,52 @@ Digikey: 568-4945-ND&lt;/p&gt;</description>
 </technologies>
 </device>
 <device name="-MH" package="QFN-44">
+<connects>
+<connect gate="G$1" pin="AVCC" pad="39"/>
+<connect gate="G$1" pin="GND@1" pad="8"/>
+<connect gate="G$1" pin="GND@2" pad="18"/>
+<connect gate="G$1" pin="GND@3" pad="30"/>
+<connect gate="G$1" pin="GND@4" pad="38"/>
+<connect gate="G$1" pin="OC0A/PD0" pad="20"/>
+<connect gate="G$1" pin="OC0A/SDA/PE0" pad="28"/>
+<connect gate="G$1" pin="OC0B/XCK0/PD1" pad="21"/>
+<connect gate="G$1" pin="OC0C/RXD0/PD2" pad="22"/>
+<connect gate="G$1" pin="OC0D/TXD0/PD3" pad="23"/>
+<connect gate="G$1" pin="PA0/ADC0/AREFA" pad="40"/>
+<connect gate="G$1" pin="PA1/ADC1" pad="41"/>
+<connect gate="G$1" pin="PA2/ADC2" pad="42"/>
+<connect gate="G$1" pin="PA3/ADC3" pad="43"/>
+<connect gate="G$1" pin="PA4/ADC4" pad="44"/>
+<connect gate="G$1" pin="PA5/ADC5" pad="1"/>
+<connect gate="G$1" pin="PA6/ADC6" pad="2"/>
+<connect gate="G$1" pin="PA7/ADC7" pad="3"/>
+<connect gate="G$1" pin="PB0/ADC8/AREFB" pad="4"/>
+<connect gate="G$1" pin="PB1/ADC9" pad="5"/>
+<connect gate="G$1" pin="PB2/ADC10/DAC0" pad="6"/>
+<connect gate="G$1" pin="PB3/ADC11/DAC1" pad="7"/>
+<connect gate="G$1" pin="PC0/OC0A/SDA" pad="10"/>
+<connect gate="G$1" pin="PC1/OC0B/XCK0/SCL" pad="11"/>
+<connect gate="G$1" pin="PC2/OC0C/RXD0" pad="12"/>
+<connect gate="G$1" pin="PC3/OC0D/TXD0" pad="13"/>
+<connect gate="G$1" pin="PC4/OC1A/#SS" pad="14"/>
+<connect gate="G$1" pin="PC5/OC1B/MOSI/XCK1" pad="15"/>
+<connect gate="G$1" pin="PC6/MISO/RXD1" pad="16"/>
+<connect gate="G$1" pin="PC7/SCK/TXD1/CLKO/EVO" pad="17"/>
+<connect gate="G$1" pin="PDI-DATA" pad="34"/>
+<connect gate="G$1" pin="PR0/XTAL2" pad="36"/>
+<connect gate="G$1" pin="PR1/XTAL1" pad="37"/>
+<connect gate="G$1" pin="RESET/PDI-CLK" pad="35"/>
+<connect gate="G$1" pin="RXD0/OC0C/PE2" pad="32"/>
+<connect gate="G$1" pin="RXD1/MISO/USB-/PD6" pad="26"/>
+<connect gate="G$1" pin="SS/PD4" pad="24"/>
+<connect gate="G$1" pin="TXD0/OC0D/PE3" pad="33"/>
+<connect gate="G$1" pin="TXD1/USB+/PD7" pad="27"/>
+<connect gate="G$1" pin="VCC@1" pad="9"/>
+<connect gate="G$1" pin="VCC@2" pad="19"/>
+<connect gate="G$1" pin="VCC@3" pad="31"/>
+<connect gate="G$1" pin="XCK0/OC0B/SCL/PE1" pad="29"/>
+<connect gate="G$1" pin="XCK1/MOSI/PD5" pad="25"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
