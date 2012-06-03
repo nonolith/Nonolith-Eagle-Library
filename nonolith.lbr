@@ -4961,6 +4961,7 @@ Mouser P/N - 649-10118192-0001LF</description>
 <rectangle x1="-10.873" y1="7.615" x2="-9.8705" y2="7.885" layer="51"/>
 <rectangle x1="-10.873" y1="8.115" x2="-9.8705" y2="8.385" layer="51"/>
 <rectangle x1="-10.873" y1="8.615" x2="-9.8705" y2="8.885" layer="51"/>
+</package>
 <package name="1X06_ROUND_2MM">
 <wire x1="-1.54" y1="0.635" x2="-1.54" y2="-0.635" width="0.1524" layer="51"/>
 <pad name="1" x="0.16" y="0" drill="1" diameter="1.5" rot="R90"/>
