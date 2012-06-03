@@ -4961,6 +4961,22 @@ Mouser P/N - 649-10118192-0001LF</description>
 <rectangle x1="-10.873" y1="7.615" x2="-9.8705" y2="7.885" layer="51"/>
 <rectangle x1="-10.873" y1="8.115" x2="-9.8705" y2="8.385" layer="51"/>
 <rectangle x1="-10.873" y1="8.615" x2="-9.8705" y2="8.885" layer="51"/>
+<package name="1X06_ROUND_2MM">
+<wire x1="-1.54" y1="0.635" x2="-1.54" y2="-0.635" width="0.1524" layer="51"/>
+<pad name="1" x="0.16" y="0" drill="1" diameter="1.5" rot="R90"/>
+<pad name="2" x="2.16" y="0" drill="1" diameter="1.5" rot="R90"/>
+<pad name="3" x="4.16" y="0" drill="1" diameter="1.5" rot="R90"/>
+<pad name="4" x="6.16" y="0" drill="1" diameter="1.5" rot="R90"/>
+<pad name="5" x="8.16" y="0" drill="1" diameter="1.5" rot="R90"/>
+<pad name="6" x="10.16" y="0" drill="1" diameter="1.5" rot="R90"/>
+<text x="-0.6162" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.074" y1="-0.254" x2="0.434" y2="0.254" layer="51"/>
+<rectangle x1="1.926" y1="-0.254" x2="2.434" y2="0.254" layer="51"/>
+<rectangle x1="3.926" y1="-0.254" x2="4.434" y2="0.254" layer="51"/>
+<rectangle x1="5.926" y1="-0.254" x2="6.434" y2="0.254" layer="51"/>
+<rectangle x1="7.926" y1="-0.254" x2="8.434" y2="0.254" layer="51"/>
+<rectangle x1="9.926" y1="-0.254" x2="10.434" y2="0.254" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -6479,7 +6495,7 @@ Mouser P/N - 649-10118192-0001LF</description>
 <gate name="A" symbol="PINHD6" x="0" y="-2.54"/>
 </gates>
 <devices>
-<device name="" package="1X06_OVAL">
+<device name="OVAL" package="1X06_OVAL">
 <connects>
 <connect gate="A" pin="1" pad="1"/>
 <connect gate="A" pin="2" pad="2"/>
@@ -6506,6 +6522,19 @@ Mouser P/N - 649-10118192-0001LF</description>
 </technologies>
 </device>
 <device name="SMT" package="1X06_SMT">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+<connect gate="A" pin="5" pad="5"/>
+<connect gate="A" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2MM" package="1X06_ROUND_2MM">
 <connects>
 <connect gate="A" pin="1" pad="1"/>
 <connect gate="A" pin="2" pad="2"/>
@@ -7241,6 +7270,9 @@ single-channel current sense amp with high common mode voltage range and high ba
 <connect gate="2" pin="G" pad="4"/>
 <connect gate="2" pin="S" pad="3"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
 </device>
 </devices>
 </deviceset>
@@ -7331,6 +7363,9 @@ Miniature Digital Barometer&lt;br&gt;&lt;br&gt;
 <connect gate="G$1" pin="ID" pad="ID"/>
 <connect gate="G$1" pin="VBUS" pad="VBUS"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
 </device>
 <device name="MICROB" package="USB-MICROB">
 <connects>
@@ -7340,6 +7375,9 @@ Miniature Digital Barometer&lt;br&gt;&lt;br&gt;
 <connect gate="G$1" pin="ID" pad="P4"/>
 <connect gate="G$1" pin="VBUS" pad="P1"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
 </device>
 </devices>
 </deviceset>
