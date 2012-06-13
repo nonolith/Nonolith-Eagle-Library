@@ -7214,7 +7214,7 @@ single-channel current sense amp with high common mode voltage range and high ba
 </device>
 </devices>
 </deviceset>
-<deviceset name="74*125" prefix="IC">
+<deviceset name="74HC125" prefix="IC">
 <description>Quad bus &lt;b&gt;BUFFER&lt;/b&gt;, 3-state</description>
 <gates>
 <gate name="A" symbol="74125" x="17.78" y="0" swaplevel="1"/>
