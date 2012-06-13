@@ -7433,7 +7433,7 @@ Miniature Digital Barometer&lt;br&gt;&lt;br&gt;
 <gate name="G$1" symbol="ATTINY24" x="0" y="0"/>
 </gates>
 <devices>
-<device name="MMH" package="QFN-20">
+<device name="MH" package="QFN-20">
 <connects>
 <connect gate="G$1" pin="GND" pad="8"/>
 <connect gate="G$1" pin="GND@0" pad="0"/>
