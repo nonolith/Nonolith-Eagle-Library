@@ -8048,7 +8048,7 @@ Source: sam3u_lqfp100.csv</description>
 <gate name="G$3" symbol="PWR+-" x="12.7" y="10.16"/>
 </gates>
 <devices>
-<device name="" package="SO-08">
+<device name="" package="MSOP8">
 <connects>
 <connect gate="G$1" pin="+IN" pad="3"/>
 <connect gate="G$1" pin="-IN" pad="2"/>
