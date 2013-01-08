@@ -6418,6 +6418,20 @@ TI Current Sense Amplifier</description>
 <pin name="W" x="13.97" y="0" length="middle" rot="R180"/>
 <pin name="~CS" x="13.97" y="-3.81" length="middle" rot="R180"/>
 </symbol>
+<symbol name="74LVC1T45">
+<pin name="V+A" x="-7.62" y="5.08" length="middle" rot="R270"/>
+<pin name="V+B" x="7.62" y="5.08" length="middle" rot="R270"/>
+<pin name="GND" x="0" y="-13.97" length="middle" rot="R90"/>
+<wire x1="0" y1="-7.62" x2="7.62" y2="0" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="0" x2="0" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="0" y1="7.62" x2="-7.62" y2="0" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="0" x2="0" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="8.89" width="0.4064" layer="94"/>
+<pin name="B" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="A" x="-12.7" y="0" length="middle"/>
+<wire x1="0" y1="-7.62" x2="0" y2="-8.89" width="0.4064" layer="94"/>
+<pin name="DIR" x="0" y="13.97" length="middle" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="OPA567">
@@ -8506,6 +8520,28 @@ high side switch with overcurrent and reverse current protection</description>
 <connect gate="G$1" pin="VDD" pad="1"/>
 <connect gate="G$1" pin="W" pad="5"/>
 <connect gate="G$1" pin="~CS" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="74LVC1T45">
+<description>&lt;b&gt;74LVC1T45&lt;/b&gt;&lt;br /&gt;
+single-bit-wide bidirectional buffer</description>
+<gates>
+<gate name="G$1" symbol="74LVC1T45" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SC-70">
+<connects>
+<connect gate="G$1" pin="A" pad="P3"/>
+<connect gate="G$1" pin="B" pad="P4"/>
+<connect gate="G$1" pin="DIR" pad="P5"/>
+<connect gate="G$1" pin="GND" pad="P2"/>
+<connect gate="G$1" pin="V+A" pad="P1"/>
+<connect gate="G$1" pin="V+B" pad="P6"/>
 </connects>
 <technologies>
 <technology name=""/>
