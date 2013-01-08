@@ -5930,13 +5930,6 @@ TS-003</description>
 <pin name="I" x="-10.16" y="0" visible="pad" length="middle" direction="in"/>
 <pin name="O" x="10.16" y="0" visible="pad" length="middle" direction="hiz" rot="R180"/>
 </symbol>
-<symbol name="PWRN">
-<text x="-0.635" y="-0.635" size="1.778" layer="95">&gt;NAME</text>
-<text x="1.905" y="-7.62" size="1.27" layer="95" rot="R90">GND</text>
-<text x="1.905" y="5.08" size="1.27" layer="95" rot="R90">VCC</text>
-<pin name="GND" x="0" y="-10.16" visible="pad" direction="pwr" rot="R90"/>
-<pin name="VCC" x="0" y="10.16" visible="pad" direction="pwr" rot="R270"/>
-</symbol>
 <symbol name="MOSFET-N">
 <wire x1="0.762" y1="0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
 <wire x1="0.762" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
@@ -6421,16 +6414,14 @@ TI Current Sense Amplifier</description>
 <symbol name="74LVC1T45">
 <pin name="V+A" x="-7.62" y="5.08" length="middle" rot="R270"/>
 <pin name="V+B" x="7.62" y="5.08" length="middle" rot="R270"/>
-<pin name="GND" x="0" y="-13.97" length="middle" rot="R90"/>
+<pin name="GND" x="0" y="-12.7" length="middle" rot="R90"/>
 <wire x1="0" y1="-7.62" x2="7.62" y2="0" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="0" x2="0" y2="7.62" width="0.4064" layer="94"/>
 <wire x1="0" y1="7.62" x2="-7.62" y2="0" width="0.4064" layer="94"/>
 <wire x1="-7.62" y1="0" x2="0" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="0" y1="7.62" x2="0" y2="8.89" width="0.4064" layer="94"/>
 <pin name="B" x="12.7" y="0" length="middle" rot="R180"/>
 <pin name="A" x="-12.7" y="0" length="middle"/>
-<wire x1="0" y1="-7.62" x2="0" y2="-8.89" width="0.4064" layer="94"/>
-<pin name="DIR" x="0" y="13.97" length="middle" rot="R270"/>
+<pin name="DIR" x="0" y="12.7" length="middle" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -7801,58 +7792,6 @@ single-channel current sense amp with high common mode voltage range and high ba
 <connect gate="G$1" pin="T+" pad="3"/>
 <connect gate="G$1" pin="T-" pad="2"/>
 <connect gate="G$1" pin="VCC" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="74HC125" prefix="IC">
-<description>Quad bus &lt;b&gt;BUFFER&lt;/b&gt;, 3-state</description>
-<gates>
-<gate name="A" symbol="74125" x="17.78" y="0" swaplevel="1"/>
-<gate name="B" symbol="74125" x="17.78" y="-17.78" swaplevel="1"/>
-<gate name="C" symbol="74125" x="45.72" y="0" swaplevel="1"/>
-<gate name="D" symbol="74125" x="45.72" y="-17.78" swaplevel="1"/>
-<gate name="G$1" symbol="PWR+-" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="SO-14" package="SO-14">
-<connects>
-<connect gate="A" pin="I" pad="2"/>
-<connect gate="A" pin="O" pad="3"/>
-<connect gate="A" pin="OE" pad="1"/>
-<connect gate="B" pin="I" pad="5"/>
-<connect gate="B" pin="O" pad="6"/>
-<connect gate="B" pin="OE" pad="4"/>
-<connect gate="C" pin="I" pad="9"/>
-<connect gate="C" pin="O" pad="8"/>
-<connect gate="C" pin="OE" pad="10"/>
-<connect gate="D" pin="I" pad="12"/>
-<connect gate="D" pin="O" pad="11"/>
-<connect gate="D" pin="OE" pad="13"/>
-<connect gate="G$1" pin="V+" pad="14"/>
-<connect gate="G$1" pin="V-" pad="7"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="TSSOP-14" package="TSSOP-14">
-<connects>
-<connect gate="A" pin="I" pad="2"/>
-<connect gate="A" pin="O" pad="3"/>
-<connect gate="A" pin="OE" pad="1"/>
-<connect gate="B" pin="I" pad="5"/>
-<connect gate="B" pin="O" pad="6"/>
-<connect gate="B" pin="OE" pad="4"/>
-<connect gate="C" pin="I" pad="9"/>
-<connect gate="C" pin="O" pad="8"/>
-<connect gate="C" pin="OE" pad="10"/>
-<connect gate="D" pin="I" pad="12"/>
-<connect gate="D" pin="O" pad="11"/>
-<connect gate="D" pin="OE" pad="13"/>
 </connects>
 <technologies>
 <technology name=""/>
