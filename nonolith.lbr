@@ -6384,16 +6384,16 @@ TI Current Sense Amplifier</description>
 <pin name="~CS" x="12.7" y="-5.08" length="middle" rot="R180"/>
 </symbol>
 <symbol name="74LVC1T45">
-<pin name="V+A" x="-7.62" y="5.08" length="middle" rot="R270"/>
-<pin name="V+B" x="7.62" y="5.08" length="middle" rot="R270"/>
-<pin name="GND" x="0" y="-12.7" length="middle" rot="R90"/>
-<wire x1="0" y1="-7.62" x2="7.62" y2="0" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="0" x2="0" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="0" y1="7.62" x2="-7.62" y2="0" width="0.4064" layer="94"/>
-<wire x1="-7.62" y1="0" x2="0" y2="-7.62" width="0.4064" layer="94"/>
+<pin name="V+A" x="-2.54" y="7.62" length="short" rot="R270"/>
+<pin name="V+B" x="2.54" y="7.62" length="short" rot="R270"/>
+<pin name="GND" x="0" y="-7.62" length="short" rot="R90"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.4064" layer="94"/>
 <pin name="B" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="A" x="-12.7" y="0" length="middle"/>
-<pin name="DIR" x="0" y="12.7" length="middle" rot="R270"/>
+<pin name="A" x="-12.7" y="2.54" length="middle"/>
+<pin name="DIR" x="-12.7" y="-2.54" length="middle"/>
 </symbol>
 <symbol name="VREG-ADJ-EN">
 <wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.4064" layer="94"/>
