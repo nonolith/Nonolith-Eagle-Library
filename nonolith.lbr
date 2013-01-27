@@ -8272,8 +8272,8 @@ Source: sam3u_lqfp100.csv</description>
 </deviceset>
 <deviceset name="LME49726">
 <gates>
-<gate name="G$1" symbol="OPAMP" x="-22.86" y="20.32"/>
-<gate name="G$2" symbol="OPAMP" x="-22.86" y="-2.54"/>
+<gate name="G$1" symbol="OPAMP" x="-22.86" y="20.32" swaplevel="1"/>
+<gate name="G$2" symbol="OPAMP" x="-22.86" y="-2.54" swaplevel="1"/>
 <gate name="G$3" symbol="PWR+-" x="12.7" y="10.16"/>
 </gates>
 <devices>
