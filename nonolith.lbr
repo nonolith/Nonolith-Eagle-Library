@@ -8238,7 +8238,7 @@ single-channel current sense amp with high common mode voltage range and high ba
 <gate name="2" symbol="MOSFET-P" x="7.62" y="0"/>
 </gates>
 <devices>
-<device name="&quot;&quot;" package="SO-08">
+<device name="" package="SO-08">
 <connects>
 <connect gate="1" pin="D" pad="5"/>
 <connect gate="1" pin="G" pad="2"/>
@@ -8247,9 +8247,6 @@ single-channel current sense amp with high common mode voltage range and high ba
 <connect gate="2" pin="G" pad="4"/>
 <connect gate="2" pin="S" pad="3"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
 </device>
 </devices>
 </deviceset>
