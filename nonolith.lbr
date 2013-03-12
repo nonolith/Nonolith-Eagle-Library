@@ -6303,6 +6303,7 @@ TS-003</description>
 <pin name="VBUS" x="10.16" y="5.08" visible="pin" length="short" direction="pwr" rot="R180"/>
 <pin name="GND" x="10.16" y="-5.08" visible="pin" length="short" direction="pwr" rot="R180"/>
 <pin name="ID" x="10.16" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="SHIELD" x="-12.7" y="-5.08" visible="pin" length="short"/>
 </symbol>
 <symbol name="ATTINY24">
 <wire x1="-15.24" y1="17.78" x2="15.24" y2="17.78" width="0.254" layer="94"/>
@@ -8479,6 +8480,7 @@ Miniature Digital Barometer&lt;br&gt;&lt;br&gt;
 <connect gate="G$1" pin="D-" pad="D-"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="ID" pad="ID"/>
+<connect gate="G$1" pin="SHIELD" pad="GND1 GND2 GND3 GND4"/>
 <connect gate="G$1" pin="VBUS" pad="VBUS"/>
 </connects>
 <technologies>
@@ -8491,6 +8493,7 @@ Miniature Digital Barometer&lt;br&gt;&lt;br&gt;
 <connect gate="G$1" pin="D-" pad="P2"/>
 <connect gate="G$1" pin="GND" pad="P5"/>
 <connect gate="G$1" pin="ID" pad="P4"/>
+<connect gate="G$1" pin="SHIELD" pad="PAD-LB PAD-LLB PAD-LT PAD-RB PAD-RRB PAD-RT"/>
 <connect gate="G$1" pin="VBUS" pad="P1"/>
 </connects>
 <technologies>
